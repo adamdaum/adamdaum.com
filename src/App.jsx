@@ -1,8 +1,12 @@
-import React from 'react';
+import React from "react";
+import { Button } from 'semantic-ui-react'
+import HomePage from "../HomePage";
 
-function App() {
-  const value = 'Vite!!!';
-  return <div>Hello {value}</div>;
+
+const App = () => {
+  return (
+    <HomePage />
+  )
 }
 
 export default App;
