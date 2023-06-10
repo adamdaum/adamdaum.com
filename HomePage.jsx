@@ -103,7 +103,10 @@ class DesktopContainer extends Component {
               size="large"
             >
               <Container>
-                <Menu.Item as="a" active>
+                <Menu.Item position="left" as="text" color="yello">
+                  ADAM C DAUM
+                </Menu.Item>
+                <Menu.Item position="right" as="a" active>
                   home
                 </Menu.Item>
                 {/* <Menu.Item as='a'>Work</Menu.Item> */}
