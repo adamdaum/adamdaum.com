@@ -4,8 +4,8 @@ import './SocialIcons.css';
 
 const SocialIcons = () => {
   return (
-    <Grid columns={6} centered>
-      <Grid.Row>
+    <Grid columns={6} stackable centered>
+
         <Grid.Column textAlign='center'>
           <a href='https://www.linkedin.com/in/adam-daum-70673b7' target='_blank' rel='noopener noreferrer'>
             <Icon color='blue' name='linkedin' size='huge' className='social-icon' />
@@ -21,7 +21,7 @@ const SocialIcons = () => {
             <Icon color='teal' name='mail' size='huge' className='social-icon' />
           </a>
         </Grid.Column>
-      </Grid.Row>
+
     </Grid>
   );
 };

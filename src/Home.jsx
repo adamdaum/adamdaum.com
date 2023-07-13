@@ -65,12 +65,12 @@ const HomepageHeading = ({ mobile, activeItem }) => (
 
                     <div style={{ paddingTop: '30px' }} />
                     <Header.Subheader>
-                        ...and I'm not gonna lie, a little bit of <a href="https://learn.microsoft.com/en-us/azure/cognitive-services/openai/concepts/models#gpt-35">Open AI</a><span style={{fontSize: '3em'}}>&nbsp;🤷&nbsp;😁</span>
+                        ...and I'm not gonna lie, a little bit of <a href="https://learn.microsoft.com/en-us/azure/cognitive-services/openai/concepts/models#gpt-35">Open AI</a><span style={{fontSize: mobile ? '1em' : '3em'}}>&nbsp;🤷&nbsp;😁</span>
                     </Header.Subheader>
                 </Header>
-                <Grid style={{marginTop: '20px'}}>
+                <div style={{marginTop: '40px'}}>
                     <SocialIcons />
-                </Grid>
+                </div>
             </Container>
 
         )}
