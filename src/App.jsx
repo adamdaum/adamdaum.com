@@ -1,12 +1,15 @@
 import React from "react";
-import { Button } from 'semantic-ui-react'
-import HomePage from "../HomePage";
+import { BrowserRouter as Router } from 'react-router-dom';
+import Routes from './Routes';
+
 
 
 const App = () => {
   return (
-    <HomePage />
-  )
+    <Router>
+      <Routes />
+    </Router>
+  );
 }
 
 export default App;
