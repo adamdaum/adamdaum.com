@@ -37,7 +37,7 @@ const HomepageHeading = ({ mobile, activeItem }) => (
             <Container text>
                 <Header
                     as="h1"
-                    color="purple"
+                    color="grey"
                     content="Adam Daum"
                     inverted
                     style={{
