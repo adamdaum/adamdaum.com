@@ -14,6 +14,7 @@ import {
 import LoginForm from "./LoginForm";
 import SocialIcons from "./SocialIcons";
 import { Emoji } from "emoji-mart";
+import TronBackground from "./TronBackground";
 
 const { MediaContextProvider, Media } = createMedia({
     breakpoints: {
@@ -65,10 +66,10 @@ const HomepageHeading = ({ mobile, activeItem }) => (
 
                     <div style={{ paddingTop: '30px' }} />
                     <Header.Subheader>
-                        ...and I'm not gonna lie, a little bit of <a href="https://learn.microsoft.com/en-us/azure/cognitive-services/openai/concepts/models#gpt-35">Open AI</a><span style={{fontSize: mobile ? '1em' : '3em'}}>&nbsp;🤷&nbsp;😁</span>
+                        ...and I'm not gonna lie, a little bit of <a href="https://learn.microsoft.com/en-us/azure/cognitive-services/openai/concepts/models#gpt-35">Open AI</a><span style={{ fontSize: mobile ? '1em' : '3em' }}>&nbsp;🤷&nbsp;😁</span>
                     </Header.Subheader>
                 </Header>
-                <div style={{marginTop: '40px'}}>
+                <div style={{ marginTop: '40px' }}>
                     <SocialIcons />
                 </div>
             </Container>
@@ -228,12 +229,15 @@ const Home = () => {
     };
 
     return (
+        <>
+            {/* <TronBackground /> */}
+                <ResponsiveContainer
+                    activeItem={activeItem}
+                    handleItemClick={handleItemClick}>
 
-        <ResponsiveContainer
-            activeItem={activeItem}
-            handleItemClick={handleItemClick}>
-
-        </ResponsiveContainer>
+                </ResponsiveContainer>
+         
+        </>
 
     )
 }
