@@ -5,7 +5,7 @@ const LoginForm = () => (
     <Grid textAlign='center' style={{ overflow: 'hidden', height: '100vh' }}>
         <Grid.Column style={{ maxWidth: 450, paddingTop: '30%' }}>
             <Container style={{backgroundColor: 'white', padding: '20px', borderRadius: '10px'}}>
-                <Header as='h2' color='blue' textAlign='center'>
+                <Header as='h2' color='purple' textAlign='center'>
                     <Image src='/adam.png' /> Log-in to your account
                 
                 </Header>
@@ -21,7 +21,7 @@ const LoginForm = () => (
                             type='password'
                         />
 
-                        <Button disabled color='blue' fluid size='large'>
+                        <Button disabled color='purple' fluid size='large'>
                             Login
                         </Button>
                     </Segment>
