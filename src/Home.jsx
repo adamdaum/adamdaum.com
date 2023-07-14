@@ -61,7 +61,8 @@ const HomepageHeading = ({ mobile, activeItem }) => (
 
                     <div style={{ paddingTop: '30px' }} />
                     <Header.Subheader>
-                        This site is an <a href="https://azure.microsoft.com/en-us/products/app-service/static">Azure Static Web App</a>, made with <a href="https://react.dev/">React</a>, <a href="https://vitejs.dev/">Vite</a>, and <a href="https://react.semantic-ui.com/">React Semantic UI</a>.
+                        This site is an <a href="https://azure.microsoft.com/en-us/products/app-service/static">Azure Static Web App</a>, made with <a href="https://react.dev/">React</a>, <a href="https://vitejs.dev/">Vite</a>, and <a href="https://react.semantic-ui.com/">React Semantic UI</a>, deployed with CI/CD using <a href="https://docs.github.com/en/actions/learn-github-actions/understanding-github-actions">GitHub Actions</a>. 
+                        Check out the repo <a href="https://github.com/adamdaum/adamdaum.com">here</a>.
                     </Header.Subheader>
 
                     <div style={{ paddingTop: '30px' }} />
